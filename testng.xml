@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="_VOIS Home Assignment" parallel="classes" thread-count="4">
+    <test name="Five in A Row">
+        <classes>
+            <class name="appache_httpclient_tests.FiveInARowTests"></class>
+            <class name="restassured_tests.FiveInARowTests"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
